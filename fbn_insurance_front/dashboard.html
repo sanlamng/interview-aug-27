@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Dashboard">
+        <meta name="author" content="Matthew Abodunrin">
+
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <title>My Dashboard</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet">
+        <link href="css/fontawesome.css" rel="stylesheet">
+        <link href="css/pe-icon-7-stroke.css" rel="stylesheet">
+
+        <!--Slider-->
+            <link rel="stylesheet" href="css/slick.css"/> 
+        <link rel="stylesheet" href="css/slick-theme.css"/> 
+
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+
+    <body onload="get_dashboard_info()">
+    <div class="tagline">
+        <div class="container">
+            <div class="float-right">
+                <div class="phone d-inline-block">
+                    <p class="text-white">Welcome!!! <span id="first_name"></span></p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+        <!-- Navigation Bar-->
+        <header id="topnav" class="defaultscroll fixed-top navbar-sticky sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <div>
+                    <a href="#" class="logo">
+                        <img src="images/fbnpng.png" alt="missing_logo" height="30">
+                    </a>
+                </div>
+                <!-- End Logo container-->
+
+
+                <div id="navigation">
+                    <!-- Navigation Menu-->
+                    <ul class="navigation-menu">
+                        <li class="has-submenu">
+                            <a href="#">Home</a><span class=""></span>
+                        </li>
+
+                    </ul>
+                    <!-- End navigation menu-->
+                </div>
+            </div>
+        </header>
+        <!-- End Navigation Bar-->
+
+
+        <!--  -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="mt-5 pt-4">
+                            <h5>All Payment Transactions</h5>
+                            <button class="btn btn-sm btn-primary" id="export" >Export to Excel</button>
+                            <table class="table table-hover mt-5" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Investment</th>
+                                        <th scope="col">Reference Code</th>
+                                        <th scope="col" class="noExport"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mt-5 pt-4"><h5 class="text-uppercase"></h5>
+                            <div class="card border shadow mb-3">
+
+                                    <div class="card-header bg-light p-3">
+                                        <h4 class="title mb-0 faq-question"> Assets / Investments </h4>
+                                    </div>
+                                </a>
+                                <div>
+                                    <div class="card-body">
+                                        <div class="text-center badge badge-success badge-pill"> Total Number Investments </div>
+                                        <p class="text-center" id="investment_total"> 100</p>
+                                        <div class="text-center badge badge-primary badge-pill"> Total Amount of Assets/Investment </div>
+                                        <p class="text-center" id="amount_total"> 100, 0000</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!--  -->
+    <div class="modal" id="transaction_detals" tabindex="-1" role="dialog" aria-hidden="true" data-bs-backdrop="static"
+         data-bs-keyboard="false">
+
+        <div class="modal-dialog modal-dialog-scrollable modal-lg fadeInRight animated ml-auto" role="document">
+
+            <div class="modal-content">
+
+                <div class="modal-header modal-bg-linear">
+
+                    <div class="m-auto">
+
+                        <h4 class="modal-title" id="product_heading">Transaction Details</h4>
+
+                    </div>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                        <span aria-hidden="true" style="color: red">&times;</span>
+
+                    </button>
+
+                </div>
+
+                <div class="modal-body p-5">
+<!--                    <div class="row">-->
+<!--                        <span class="col-md-4">-->
+<!--                            <p>Payment Date: </p>-->
+<!--                            <p>Transaction Amount: </p>-->
+<!--                            <p>Investment Type: </p>-->
+<!--                            <p>Investment Details:</p>-->
+<!--                            <p>Payment Reference Code:</p>-->
+<!--                            <p>Submitted date:</p>-->
+<!--                            <p>Transaction Status:</p>-->
+<!--                        </span>-->
+<!--                        <span class="col-md-6">-->
+<!--                            <p id="payment_date"></p></p>-->
+<!--                            <span id="tranx_amount"-->
+
+<!--                    </span>-->
+<!--                    </div>-->
+
+                    <p>Payment Date: <span id="payment_date" style="padding-left: 100px">i</span></p>
+                    <p>Transaction Amount: <span id="tranx_amount" style="padding-left: 100px">-</span></p>
+                    <p>Investment Type: <span id="product_type" style="padding-left: 100px"></span></p>
+                    <p>Investment Details: <span id="product_details" style="padding-left: 100px"></span></p>
+                    <p>Payment Reference Code: <span id="ref_code" style="padding-left: 100px"></span></p>
+                    <p>Submitted date: <span id="submitted_date" style="padding-left: 100px"></span></p>
+                    <p>Transaction Status: <span id="trans_status" style="padding-left: 100px"></span></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- js placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src=" https://cdn.jsdelivr.net/gh/rainabba/jquery-table2excel@1.1.0/dist/jquery.table2excel.min.js"></script>
+
+        <!-- Carousel -->
+        <script src="js/slick.min.js"></script> 
+        <script src="js/slick.init.js"></script> 
+        <!--custom script-->
+    <script src="js/app.js"></script>
+        <script src="js/dashboard.js"></script>
+        
+    </body>
+
+</html>
