@@ -1,0 +1,98 @@
+:root {
+  --spartan: "Spartan", sans-serif;
+  --light-blue: rgb(124, 93, 250);
+  --dark: rgb(20, 22, 37);
+  --light-dark: rgb(30, 33, 57);
+  --light-red: rgb(236, 87, 87);
+  --gray: #888eb0;
+  --orange: rgb(255, 143, 0);
+  --green: rgb(51, 214, 159);
+  --light-logo: rgb(146, 119, 255);
+  --light-bg: rgb(248, 248, 251);
+  --black-text: rgb(12, 14, 22);
+}
+.dark-mode {
+  background-color: var(--dark);
+  transition: all ease-in-out 0.3s;
+}
+.dark-mode h5 {
+  color: white;
+  transition: all ease-in-out 0.3s;
+}
+.dark-mode h4 {
+  transition: all ease-in-out 0.3s;
+  color: white;
+}
+.dark-mode h3 {
+  transition: all ease-in-out 0.3s;
+  color: white;
+}
+.dark-mode .invoices-container {
+  transition: all ease-in-out 0.3s;
+  background-color: var(--light-dark);
+  /* background: linear-gradient(145deg, #e6e6e6, #ffffff); */
+  box-shadow: 20px 20px 60px #00000027, -20px -20px 60px #0000002b;
+}
+.dark-mode .invoice-details-wrapper {
+  background-color: var(--light-dark);
+  transition: all ease-in-out 0.3s;
+}
+.dark-mode .invoice-total-wrapper {
+  transition: all ease-in-out 0.3s;
+  background-color: rgb(37, 41, 69);
+}
+.dark-mode .invoice-due-container {
+  transition: all ease-in-out 0.3s;
+  background-color: rgb(12, 14, 22);
+}
+.dark-mode .invoice-status-wrapper {
+  transition: all ease-in-out 0.3s;
+  background-color: var(--light-dark);
+}
+.dark-mode .invoice-back p {
+  transition: all ease-in-out 0.3s;
+  color: white;
+}
+.dark-mode .invoice-footer-buttons {
+  transition: all ease-in-out 0.3s;
+  background-color: var(--light-dark);
+}
+.dark-mode .filter-options {
+  transition: all ease-in-out 0.3s;
+  background-color: var(--light-dark);
+}
+.dark-mode .filter-container {
+  color: white;
+}
+.dark-mode .invoices-form {
+  background-color: var(--dark);
+}
+.dark-mode .invoices-form h5 {
+  color: rgb(124, 93, 250);
+}
+.dark-mode .invoices-form label,
+.dark-mode .invoices-form .form-total-name {
+  color: rgb(223, 227, 250);
+}
+.dark-mode .invoices-form input {
+  background-color: var(--light-dark);
+  border: none !important;
+  color: white;
+}
+.dark-mode .form-total,
+.dark-mode .invoices-form-header {
+  color: white;
+}
+.dark-mode .btn-discard {
+  background-color: #888eb0;
+  color: #222b5c;
+}
+.dark-mode .draft {
+  color: white !important;
+}
+.dark-mode .profile-wrapper h1 {
+  color: var(--light-blue);
+}
+.dark-mode .empty-invoice-notice h1 {
+  color: white;
+}

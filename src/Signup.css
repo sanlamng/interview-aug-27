@@ -1,0 +1,122 @@
+.register-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signup-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 40%;
+}
+
+.double-input {
+  width: 100%;
+}
+
+.user-validation {
+  display: flex;
+  width: 100vw;
+  /* min-width: 320px; */
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  flex-direction: column;
+  background-color: white;
+  position: absolute !important;
+  border-radius: 10px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  padding: 0 10px;
+}
+.user-validation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+.input-2 {
+  margin-bottom: 10px;
+}
+
+#SignOnName,
+#UserPassword,
+.user-validation input {
+  width: 100% !important;
+  height: 40px;
+  border: 0.5px solid gray !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.validation-header {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  color: #173e67;
+}
+
+.register-logo {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.btn-create {
+  border: unset;
+  background-color: #377dff;
+  width: 80%;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn-create:hover {
+  transform: scale(1.02);
+  box-shadow: 2.2px 2.3px 2.4px rgba(0, 0, 0, 0.02),
+    5.5px 5.6px 6px rgba(0, 0, 0, 0.028),
+    10.8px 11px 11.4px rgba(0, 0, 0, 0.035),
+    19.8px 20.3px 20.8px rgba(0, 0, 0, 0.042),
+    37px 37.9px 39.2px rgba(0, 0, 0, 0.05), 84px 86px 94px rgba(0, 0, 0, 0.07);
+}
+
+.redirect-login {
+  margin: 20px 0;
+  color: #173e67;
+}
+
+.redirect-login a {
+  color: #377dff;
+  text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 1rem;
+  }
+  .redirect-login {
+    font-size: 0.9rem;
+  }
+}
