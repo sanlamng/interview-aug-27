@@ -1,0 +1,13 @@
+Options FollowSymLinks
+RewriteEngine On 
+
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^platform/video/([0-9a-zA-Z-_]+)$ platform/free-video.php?url=$1 [L,NC,QSA]
+RewriteRule ^platform/classroom/([0-9a-zA-Z-_]+)$ platform/classroom.php?url=$1 [L,NC,QSA]
+RewriteRule ^platform/join-class/([0-9a-zA-Z-_]+)$ platform/join-class.php?url=$1 [L,NC,QSA]
+RewriteRule ^choose-plan/([0-9a-zA-Z-_]+)$ choose-plan.php?url=$1 [L,NC,QSA]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

@@ -1,0 +1,2624 @@
+
+.notification-icon {
+    padding-top: 10px;
+    margin-right: 30px;
+    position:relative;
+}
+
+
+
+.notification-count {
+    position: absolute;
+    border-radius: 50%;
+    background: #cc0000;
+    color: #fff;
+    right: -13px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.notification-circle {
+    background: #cc0000;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    top: -9px;
+    position: relative;
+    right: -3px;
+}
+
+.bell-circle {
+    background: #e2e4e8;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    color:#8FC33D;
+}
+
+.bell-circle:hover { 
+    background:#8FC33D;
+    color:#fff;
+}
+
+.notification-message-box {
+    background: #fff;
+    border-radius:5px;
+    box-shadow: 0px 0px 5px #999;
+    display:none;
+    position:absolute;
+    right:30px;
+    top:8%;
+    width:300px;
+    padding:15px;
+    z-index: 10000;
+}
+
+.notification-message-box-inner {
+    height:350px;
+    overflow-y: auto;
+}
+
+.right-icon {
+    margin-top:15px;
+}
+
+.classroom-password-box {
+    width:30% !important;
+    float:left;
+    
+}
+
+.classroom-banner-height {
+    height: 250px;
+}
+
+.position-upload-button {
+    margin-top:100px;
+}
+
+.generate-classroom-password {
+    background:#00a491;
+    color: #fff;
+    font-size: 14px;
+    float:left;
+    height: 40px;
+    line-height: 40px;
+    padding:0px 15px;
+}
+.generate-classroom-password:hover {
+    background: #999;
+    color:#fff;
+}
+
+.platform-page-title {
+    font-size:2rem;
+    font-weight: 500;
+}
+
+.ucfirst {
+    text-transform: capitalize;
+}
+
+.user-chat-area {
+    border-bottom: 1px solid #3C5975;
+    padding-bottom: 5px;
+}
+
+.chat-page-left {
+    padding:15px;
+    border:1px solid #EDEDED;
+    font-size:1.2rem;
+    background: #283C4F;
+    color:#000;
+}
+
+.user-circle {
+    width:30%;
+    float:left
+}
+
+.chat-user-picture {
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+.user-avatar-circle {
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background:#7EAF36;
+    color:#fff;
+    font-size:25px;
+    display:inline-block;
+    text-align:center;
+    line-height:60px;
+}
+
+.user-details {
+    width:70%;
+    float:left;
+    line-height: 26px;
+}
+
+.user-name {
+    color:#fff;
+    font-size:18px;
+    font-weight:500;
+}
+
+.user-status {
+    color:#9EB8CF;
+}
+
+.online{
+    width:7px;
+    height:7px;
+    background:#7EAF36;
+    border-radius: 50%;
+    display:inline-block;
+    margin-right:5px;
+    margin-top:-5px;
+}
+
+.offline{
+    width:7px;
+    height:7px;
+    background:#cc0000;
+    border-radius: 50%;
+    display:inline-block;
+    margin-right:5px;
+    margin-top:-5px;
+}
+
+.unread {
+    background:#cc0000;
+    display: inline-block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+    color:#fff;
+    line-height: 25px;
+    text-align: center;
+    position: absolute;
+    right: 15px;
+}
+
+.user-logout {
+    font-size:12px;
+    color:#ccc;
+    float:right;
+}
+
+.chat-box {
+    height:370px;
+    padding: 10px 20px;
+    overflow-y: scroll;
+    width:100%;
+}
+
+.classroom-lesson-box {
+    height: 421px;
+    padding: 10px 20px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.classroom-lesson-box2 {
+    height: 475px;
+    padding: 10px 20px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+
+
+.you-holder {
+    width: 100%;
+    display: inline-block
+}
+
+.you-holder .message-holder {
+    max-width: 90%;
+    background:#415F7B;
+    color:#fff;
+    float:right;
+    border-radius:10px;
+    padding:5px 11px;
+    margin-bottom: 20px;
+}
+
+.you-holder .writer {
+    font-size:15px;
+    font-weight: 500;
+}
+
+
+.replyer-holder {
+    width: 100%;
+    display: inline-block
+}
+
+.replyer-holder .message-holder {
+    max-width: 90%;
+    
+    background:#fff;
+    color:#000;
+    float:left;
+    border-radius:10px;
+    padding:5px 11px;
+    margin-bottom: 20px;
+
+}
+
+.replyer-holder .writer {
+    font-size:15px;
+    font-weight: 500;
+}
+
+.timestamp {
+    font-size: 10px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.other-users-online {
+    
+    height:400px;
+    overflow-y: auto;
+    margin-top:15px;
+}
+.other-users-online ul {
+    margin:0;
+}
+.other-users-online ul li{
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:25px;
+    display: inline-block;
+    cursor: pointer;
+}
+.other-users-online ul li.active,
+.other-users-online ul li:hover
+{
+    background: #2E445A !important;
+    border-right: 3px solid #8FC33D;  
+
+}
+.other-user-circle {
+    width:20%;
+    float:left;
+    position:relative;
+}
+
+.other-user-details {
+    width:80%;
+    float:left;
+    line-height: 26px;
+}
+
+.other-user-details .user-name {
+    color:#fff;
+    font-size:15px;
+    font-weight:500;
+    padding-left:5px;
+}
+
+.other-user-avatar-picture {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.other-user-avatar-circle {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background:#7EAF36;
+    color:#fff;
+    font-size:15px;
+    display:inline-block;
+    text-align:center;
+    line-height:40px;
+}
+
+.fancy-position
+{
+    position: absolute;
+    left: -5px;
+    top: 7px;
+}
+
+.classroom-chat-box {
+    height: 270px;
+    padding: 10px 20px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+
+.chat-page-right {
+    background:#E7EBEB;
+    height:512px;
+    border-top:1px solid #EDEDED;
+    border-right:1px solid #EDEDED;
+    border-bottom:1px solid #EDEDED;
+    box-shadow: 1px 1px 5px #ccc;
+    position:relative;
+}
+
+.chat-page-header {
+    background:#F5F5F5;
+    height:65px;
+    padding-top:10px;
+}
+
+.chat-page-header .user-circle {
+    width:7.5%;
+    padding-left: 10px;
+}
+.chat-page-header .user-name {
+    width:90%;
+    font-size: 20px;
+    font-weight:500;
+    color:#000;
+    padding-top:10px;
+    
+}
+
+.chat-page-header .user-avatar-circle {
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    background:#7EAF36;
+    color:#fff;
+    font-size:25px;
+    display:inline-block;
+    text-align:center;
+    line-height:45px;
+}
+
+.send-box {
+    position:absolute;
+    bottom: 10px; 
+    left:0;
+    right:0;
+
+}
+.send-box textarea {
+    width: 83%;
+    height: 50px;
+    max-height: 92px;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding-left: 15px;
+    background: #fff;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+    border-radius: 25px 25px 25px 25px;
+    color: #666666;
+    float: left;
+    outline: none;
+    resize: none;
+    margin-left: 20px;
+}
+
+
+.send-box textarea:hover,
+.send-box textarea:focus {
+    border: 2px solid  teal;
+}
+
+.send-box ::placeholder {
+    color:#666666 !important;
+}
+
+.send-button {
+    background: #7EAF36;
+    height: 40px;
+    width: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15.5%;
+    top: 10%;
+}
+
+
+.send-button:hover { 
+    background: #666666;
+}
+
+
+/* classroom chat styles  */
+.my-classroom-chat-area {
+    position: relative;
+    height: 100%;
+}
+.class-send-box {
+    position:absolute;
+    bottom: 0px; 
+    left:0;
+    right:0;
+}
+.class-send-box textarea {
+    width: 73%;
+    height: 50px;
+    max-height: 92px;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding-left: 15px;
+    background: #fff;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+    border-radius: 25px 25px 25px 25px;
+    color: #666666;
+    float: left;
+    outline: none;
+    resize: none;
+    margin-left: 0px;
+    padding-right: 46px;
+}
+
+.class-send-box textarea:hover,
+.class-send-box textarea:focus {
+    border: 2px solid  teal;
+}
+
+.class-send-box ::placeholder {
+    color:#666666 !important;
+}
+
+.send-box .extra-button-2 {
+    background: teal;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.class-send-button {
+    background:#283C4F;
+    height:50px;
+    padding-left:20px;
+    padding-right:20px;
+    color:#fff;
+    float:left;
+    font-size:18px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+
+.send-box .fixed-action-btn ul {
+    right:10%;
+}
+
+.class-send-button { 
+    background: #7EAF36;
+}
+.class-send-button:hover { 
+    background: #666666;
+}
+
+.my-classroom-chat-area .extra-button {
+    background: #fff;
+    height: 50px;
+    padding-right: 20px;
+    color: #666666;
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.my-classroom-chat-area .extra-button:hover,
+.my-classroom-chat-area .extra-button:focus {
+    color: #7EAF36;
+}
+
+.my-classroom-chat-area .extra-button-2 {
+    background: teal;
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-top: 8px;
+}
+.my-classroom-chat-area .extra-button-2:hover,
+.my-classroom-chat-area .extra-button-2:focus {
+    color: #fff;
+    background: #999;
+}
+
+.my-classroom-chat-area  .send-button {
+    background: #7EAF36;
+    height: 35px;
+    width: 35px;
+    padding-left: 0;
+    padding-right: 0;
+    color: #fff;
+    float: left;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 29%;
+    margin-top: 3%;
+}
+
+
+.my-classroom-chat-area  .send-button:hover { 
+    background: #666666;
+}
+
+.fixed-action-btn {
+    position: initial;
+    right: initial;
+    bottom: initial;
+    padding-top: initial;
+    margin-bottom: 0;
+    z-index: 997;
+}
+
+.fixed-action-btn ul {
+    left: initial;
+    right: 16.3%;
+    text-align: center;
+    position: absolute;
+    bottom: 45px;
+    margin: 0;
+    visibility: hidden;
+    width: 40px;
+}
+
+.classroom-chat-area .collapsible {
+    margin:0;
+}
+
+.classroom-chat-area .collapsible-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.5;
+    padding: 1rem;
+    background-color: #2E445A;
+    border-bottom: none;
+    color:#fff;
+    font-size: 16px;
+}
+
+
+.classroom-chat-area .active .collapsible-body {
+    display: block;
+    margin-top: 0px;
+    padding:10px 10px;
+    margin-bottom: 0px;
+    height: 345px;
+    overflow-y: auto;
+}
+
+
+.classroom-button-area .collapsible-header i {
+    width: 1rem !important;
+    font-size: 1rem !important;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.classroom-blackboard{
+    padding: 10px;
+    border:1px solid #EDEDED;
+    font-size:1.2rem;
+    background:#E7EBEB;
+    border-radius: 0px;
+    color:#000;
+    height: 500px;
+    position: relative;
+    box-shadow: 0px 0px 10px #999999;
+}
+
+.classroom-blackboard .replyer-holder .message-holder {
+    max-width: 97%; 
+}
+
+.classroom-blackboard .send-box textarea {
+    width: 74%; 
+}
+
+.classroom-blackboard .extra-button {
+    background: #fff;
+    height: 50px;
+    padding-right: 20px;
+    color: #666666;
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.classroom-blackboard .extra-button:hover,
+.classroom-blackboard .extra-button:focus {
+    color: #7EAF36;
+}
+
+.classroom-blackboard .extra-button-2 {
+    background: teal;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    line-height: 43px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.classroom-blackboard .extra-button-2:hover,
+.classroom-blackboard .extra-button-2:focus {
+    color: #fff;
+    background: #999;
+}
+
+.classroom-button-area {
+    padding-right:10px !important;
+}
+.classroom-button {
+    text-transform: uppercase;
+    line-height: 40px;
+    border-radius: 18px;
+    text-align: center;
+    padding:0px 20px;
+    background:#E0E0E0;
+    display: inline-block;
+    color:#333;
+    font-weight: 500;
+    margin-right:5px;
+}
+
+.classroom-button:hover {
+    background: #8FC33D;
+    color:#fff;
+}
+
+.classroom-button-area  .active {
+    background: #192834 !important;
+    color:#fff;
+}
+
+.classroom-left .subtitle {
+    font-size:25px;
+    margin-bottom: 0px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.classroom-form-padding {
+    padding: 25px 30px;
+}
+
+.long-file-name {
+    text-overflow: ellipsis;
+    width: 70px !important;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.teacher-pane {
+    background: #fff;
+    padding:10px;
+    border-radius: 18px;
+}
+
+.teacher-avatar {
+    width: 30%;
+    float: left;
+}
+
+.teacher-avatar .inner {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #7EAF36;
+    color: #fff;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+.teacher-name {
+    width: 70%;
+    float: left;
+    line-height: 26px;
+}
+
+
+.teacher-name .inner { 
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+}
+.teacher-name .action {
+    background: #E0E0E0;
+    color:#333;
+    padding:3px 10px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.teacher-name .action:hover {
+    background: #7EAF36;
+    color:#fff;
+}
+
+.lesson-learned {
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.content-page-border {
+    padding: 10px 15px;
+    border:1px solid #EDEDED;
+    font-size:1.2rem;
+    background: #fff;
+    border-radius: 10px;
+    color:#000;
+}
+
+.content-form label {
+    font-size: 14px;
+    color:#000;
+    font-weight: 700;
+}
+
+.content-form input[type=text], 
+.content-form input[type=number],
+.content-form input[type=password], 
+.content-form select, 
+.content-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+.content-form input:focus, 
+.content-form select:focus, 
+.content-form textarea:focus {
+
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00a491;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+.content-form textarea {
+    height:100px;
+}
+
+.content-form ::placeholder {
+    color:#999;
+}
+
+.content-form input[type=submit] {
+    width: 150px;
+    background: #8FC33D;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+.theme-color {
+	color:#3EB249;
+}
+
+
+.showpic {
+    height: 220px;
+    overflow: hidden;
+    width: 310px;
+    position:relative;
+    background: #f1f1fe;
+    line-height: 150px;
+    font-size:25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showpic2 {
+    height: 150px;
+    overflow: hidden;
+    width: 150px;
+    position:relative;
+    background: transparent;
+    font-size:25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showvid {
+    height: 200px;
+    width: 180px;
+    position:relative;
+    background: #f1f1fe;
+    line-height: 150px;
+    font-size:25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.snapshot-generator {
+    display: block;
+    height: 1px;
+    left: 0;
+    object-fit: contain;
+    position: fixed;
+    top: 0;
+    width: 1px;
+    z-index: -1;
+}
+
+.play-button {
+    position:absolute;
+    left:41%;
+    top:33%;
+    font-size:30px;
+    color: #fff;
+    border:2px solid #fff;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    text-align:center;
+    line-height:40px;
+    box-shadow: 1px 1px 10px #333;
+    background:#81a92a;
+}
+
+.play-button i {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+
+.showpic img {
+    width: 100%;  
+    height: auto;
+}
+
+
+.remove-file {
+    color:red;
+    cursor: pointer;
+}
+.output-file video {
+    height:200px;
+}
+
+.plyr audio, .plyr video {
+    border-radius: inherit;
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.content-form input[type=submit]:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #8FC33D;
+}
+
+.hide-this {
+    display:none ;
+}
+
+
+.collection a.collection-item {
+    display: block;
+    -webkit-transition: .25s;
+    transition: .25s;
+    color: #333;
+}
+
+.collection li {
+    list-style-type: none;
+}
+
+.classroom-delete-title {
+    font-size:20px;
+    margin-bottom: 5px;
+    margin-top:10px;
+}
+
+.icon-right-space {
+    margin-right: 10px;
+}
+
+.classroom_circle{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    padding:5px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.classroom_circle2 {
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    padding:5px;
+    box-shadow: 1px 1px 5px #ccc;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.classroom-name-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.enrol-class-form input[type=text] {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px 2px;
+}
+
+.upload-area {
+    border:2px dashed #ccc;
+    border-radius: 5px;
+    padding:25px;
+    background:#f1f1f1;
+    text-align:center; 
+}
+
+.item-card {
+    padding:16px;
+    border:1px solid #EDEDED;
+    font-size:1.2rem;
+    position:relative;
+    background: #fff;
+    border-radius: 10px;
+    color:#333;
+}
+.item-card:hover {
+    background: #7EAF36;
+    color:#fff;
+}
+
+
+.item-card2 {
+    padding:16px;
+    border:1px solid #EDEDED;
+    font-size:1.2rem;
+    position:relative;
+    background: #fff;
+    border-radius: 10px;
+    color:#333;
+}
+
+.item-card .image {
+    float:left;
+    width:50px;
+    height:50px;
+    border-radius: 10px;
+    background: #7EAF36;
+    padding:10px;
+    margin-right:20px;
+    
+}
+.item-card .content {
+    float:left;
+   
+}
+
+.classroom-area {
+    border:1px solid #EDEDED;
+    font-size:1.2rem;
+    position:relative;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    color:#333;
+    overflow: hidden;
+}
+
+.classroom-body {
+    padding:0px 10px;
+}
+
+.classroom-area .title {
+    font-size:1.4rem;
+    line-height: 1.7rem;
+    color:#000;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    min-height: 40px;
+    text-overflow: ellipsis;
+    width:266px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.classroom-area .teacher {
+    font-size:1rem;
+    line-height: 1.5rem;
+}
+
+.classroom-area .class-img {
+    width: 100%;
+    height:200px;
+    overflow: hidden;
+}   
+
+.classroom-area .class-img img {
+    width:100%;
+    min-height: 200px;
+}
+
+.classroom-area .action {
+    background:#8FC33D;
+    color:#fff;
+    padding:6px 15px;
+    display:inline-block;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.classroom-area .action:hover { 
+    background: #999999;
+    color: #fff;
+}
+
+.green-action-button {
+    background:#8FC33D;
+    color:#fff;
+    padding:6px 15px;
+    display:inline-block;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.green-action-button:hover {
+    background: #999999;
+    color: #fff;
+}
+
+.small-info {
+    font-size:12px;
+    line-height: 18px;
+}
+
+.small-info span {
+    font-weight: 900;
+}
+
+
+.dmplayer {
+    width:100%;
+    height:200px;
+}
+
+.item-card .title {
+    font-size:1.2rem;
+    font-weight: 500;
+    margin-top:10px;
+   
+}
+
+
+.title2 {
+    font-size:1.4rem;
+    font-weight: 500;
+    margin-top:10px;
+    line-height: 1.7rem;
+    min-height: 50px;
+}
+
+.item-card .notification {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #cc0000;
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0;
+}
+
+
+.back-button {
+    padding:5px 10px !important;
+    border: 1px solid #EDEDED;
+    color:#000;
+    background:#fff;
+    display:inline-block;
+    border-radius: 20px;
+}
+.back-button:hover {
+    border: 1px solid #8FC33D;
+    color:#fff;
+    background:#8FC33D;
+}
+
+.action-area { 
+    position: absolute;
+    bottom: 24px;
+    right: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    color: #000;
+    background: transparent;
+}
+
+.action-area:hover { 
+    background: #8FC33D;
+    color: #fff;
+}
+
+/* CHAT AREA  */
+
+.expanded-modal {
+    width:90% !important;
+    height: 90% !important;
+    left: 5%;
+    top:5%;
+}
+
+.show-on-small {
+    display:none;
+}
+
+.no-pad-left-right-special {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    line-height: 0;
+}
+
+.recording {
+    color:teal;
+}
+
+
+
+.audio-record-button {
+    background: teal;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border:none;
+    padding:7px 10px;
+}
+
+.audio-record-button:hover {
+    background: #666666;
+    color:#fff;
+}
+
+.audio-record-button:disabled {
+    opacity:0.5;
+    cursor: not-allowed;
+}
+
+.live-video-box {
+    width: 600px;
+    height:370px;
+    background: #f2f2f2;
+    margin-top:4%;
+    margin-left:7%;
+}
+.panel {
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 1.2px 5.6px 0 rgba(0, 0, 0, 0.12);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    width: 100%;
+    margin-bottom: 26px;
+    overflow:hidden;
+}
+.panel-header {
+    width: 100%;
+    padding: 16px 24px 16px;
+    border-bottom: 1px solid #f5f5f5;
+    font-size:20px;
+}
+.panel-body {
+    padding: 16px 24px 16px;
+}
+
+.remove-panel-padding {
+    padding: 0px !important;
+}
+
+.delete-button {
+    background:#cc0000;
+    color:#fff;
+    padding:10px 15px;
+    border-radius: 5px;
+}
+.delete-button:hover {
+    background:#999;
+    color:#fff;
+}
+
+.more-details {
+    border-bottom: 1px dashed #333;
+    color: #333;
+}
+
+
+select {
+    display: initial;
+}
+.dataTables_filter input[type=text]{
+    height:40px;
+    display: inline-block;
+}
+button.dt-button, div.dt-button, a.dt-button, input.dt-button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 0.333em;
+    margin-bottom: 0.333em;
+    padding: 0.5em 1em;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.88em;
+    line-height: 1.6em;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+    text-overflow: ellipsis;
+    background: #81a92a;
+    color: #fff;
+    border: none;
+}
+
+button.dt-button:hover, div.dt-button:hover, a.dt-button:hover, input.dt-button:hover {
+    border: none !important;
+    background: #999 !important;
+    color:#fff;
+
+}
+
+
+.cart-header {
+    background:#FAFCFF;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left:26px;
+    padding-right:20px;
+    border-bottom:1px solid #f5f5f5;
+    color:#000;
+    font-weight:700;
+}
+
+.cart-subitems {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:26px;
+    padding-right:20px;
+    border-bottom:1px solid #f5f5f5;
+}
+
+
+.cart-subitems:hover {
+    background:#FAFCFF;
+}
+
+.verified {
+    background:#81A92A;
+    color:#fff;
+    padding:5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.not-verified {
+    background:#999;
+    color:#fff;
+    padding:5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.edit-button {
+    background:#81A92A;
+    color:#fff;
+    padding:10px 15px;
+    border-radius:3px;
+}
+.edit-button:hover {
+    background:#999;
+    color:#fff;
+}
+
+.notification-message-box-inner .collection {
+	border:none;
+}
+.notification-message-box-inner .collection-header {
+    font-size: 21px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.platform-form ::placeholder {
+    color:#999;
+}
+
+.platform-form label {
+    color:#666;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*Hide all except first fieldset*/
+.platform-form fieldset:not(:first-of-type) {
+    display: none;
+}
+
+
+.platform-form input[type=text], 
+.platform-form input[type=number], 
+.platform-form textarea,  
+.platform-form select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: lato;
+    color: #2C3E50;
+    font-size: 14px;
+}
+
+.platform-form textarea {
+    height:200px;
+}
+
+.platform-form input:focus, .platform-form textarea:focus, .platform-form select:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00a491;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+/*buttons*/
+.platform-form .action-button {
+    background: #00a491;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 10px 5px;
+}
+
+.platform-form .action-button:hover, .platform-form .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #00a491;
+}
+
+
+.chosen-container-single .chosen-single {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 7px 0 0 8px;
+    height: 40px;
+    border: 1px solid #aaa;
+    border-radius: 0px;
+    background-color: #fff;
+    background: transparent !important;
+    box-shadow: 0 0 3px #fff inset, 0 1px 1px rgba(0,0,0,.1);
+    color: #444;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 24px;
+}
+
+
+.chosen-container-multi .chosen-choices {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 5px;
+    width: 100%;
+    min-height: 40px;
+    height: auto;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(1%,#eee),color-stop(15%,#fff));
+    background-image: linear-gradient(#eee 1%,#fff 15%);
+    cursor: text;
+}
+.show-more {
+    display:inline-block;
+    cursor: pointer;
+}
+.search-area {
+    margin-top:15px;
+}
+.search-area input[type=text] {
+    width:70%;
+    height:40px;
+    background:#fff;
+    color:#333;
+    border-radius: 18px;
+    border:none;
+    padding-left:15px;
+    border:1px solid #ddd;
+    outline: none;
+}
+
+.search-area ::placeholder {
+    color:#999999;
+}
+
+.search-area .action-button {
+    background: #00a491;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 11px 13px;
+    width: 40%;
+    line-height: 40px !important;
+}
+
+.search-area .action-button:hover, .search-area .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #00a491;
+}
+
+.remove-body-padding {
+    padding-left:0px !important; 
+}
+
+.mobile audio {
+    width: 189px;
+    height: 41px;
+}
+
+.poster-pic-holder {
+    height: 250px;
+    overflow:hidden;
+}
+
+.poster-pic-holder  img {
+    width:100%;
+    min-height: 250px;
+}
+
+.item-card .title2 {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 40px;
+    text-overflow: ellipsis;
+    width: 266px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.space-user-form {
+    padding: 20px 30px;
+}
+
+.notification {
+    background:rgba(126,175,54, 0.7);
+    color:#fff;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding:15px;
+}
+
+.no-pad-right-large {
+    padding-right: 0 !important;
+}
+  
+/*
+======================================================================
+RESPONSIVE
+======================================================================
+*/
+
+
+/*tabs */
+@media screen and (min-width: 536px) { 
+    .dashboard-item {
+        min-height: 310px;
+    }
+}
+
+/* larger mobile phones*/
+@media screen and (min-width: 1px) and (max-width: 535px)  {
+	
+    .green-top-area .tabs .tab a {
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0 10px;
+        font-size: 14px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-transition: color .28s ease;
+        transition: color .28s ease;
+        font-weight: 500;
+    }
+    .short-classroom-text {
+        text-overflow: ellipsis;
+        width: 190px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        color:#fff;
+        font-weight: 500;
+    }
+
+    .dropdown-content {
+        background-color: #fff;
+        margin: 0;
+        display: none;
+        min-width: 140px;
+        max-height: 650px;
+        overflow-y: auto;
+        opacity: 0;
+        position: absolute;
+        z-index: 999;
+        will-change: width, height;
+    }
+    .dropdown-content li {
+        clear: both;
+        color: rgba(0,0,0,0.87);
+        cursor: pointer;
+        min-height: 40px;
+        line-height: 1.5rem;
+        width: 100%;
+        text-align: left;
+        text-transform: none;
+    }
+    .dropdown-content li>a, .dropdown-content li>span {
+        font-size: 16px;
+        color: #26a69a;
+        display: block;
+        line-height: 24px;
+        padding: 5px 8px;
+    }
+    
+	.spaced-out-container {
+        width:94% !important;
+    }
+    .show-on-small {
+        display:block;
+    }
+
+    .classroom-lesson-box {
+        height: 310px;
+        padding: 0px 0px;
+        overflow-y: auto;
+        width: 100%;
+    }
+
+    .replyer-holder .message-holder {
+        max-width: 80%;
+        background: #fff;
+        color: #000;
+        float: left;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+
+    .send-box .fixed-action-btn ul {
+        right: 17%;
+    }
+
+    .send-box textarea {
+        width: 85%;
+        height: 40px;
+        max-height: 92px;
+        font-size: 15px;
+        border: 1px solid #fff;
+        padding-left: 10px;
+        background: #fff;
+        overflow: hidden;
+        line-height: 20px;
+        font-size: 15px;
+        padding-top: 6px;
+        border-radius: 10px;
+        color: #666666;
+        float: left;
+        outline: none;
+        resize: none;
+        margin-left: 10px;
+    }
+
+    .classroom-blackboard .send-box textarea {
+        width: 65%;
+        padding-right: 39px;
+    }
+
+    .send-button {
+        background: #7EAF36;
+        height: 35px;
+        width: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
+        color: #fff;
+        float: left;
+        font-size: 19px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        right: 33%;
+    }
+
+    .classroom-blackboard .extra-button-2 {
+        background: teal;
+        height: 35px;
+        width: 35px;
+        color: #fff;
+        float: left;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+
+    .tasks-inner {
+        height: 310px;
+        overflow-y: auto;
+    }
+
+    .classroom-name-title {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    #sic2 {
+        overflow-y: auto;
+        height: 100%;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+
+    .btn, .btn-large, .btn-flat {
+        border: none;
+        border-radius: 2px;
+        display: inline-block;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 0.8rem;
+        text-transform: uppercase;
+        vertical-align: middle;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    audio, canvas, progress, video {
+        display: inline-block;
+        vertical-align: baseline;
+        width: 187px;
+    }
+
+    .video_snapshot {
+        width: 200px !important;
+    }
+
+    .classroom-form-padding {
+        padding: 0px 11px;
+    }
+
+    .showpic {
+        height: 187px;
+        overflow: hidden;
+        width: 206px;
+        position: relative;
+        background: #f1f1fe;
+        line-height: 150px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .notification-icon {
+		padding-top: 10px;
+		margin-right: 5px;
+		position: relative;
+    }
+    
+    .notification-message-box {
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #999;
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 8%;
+        width: 300px;
+        height:250px;
+        padding: 15px;
+        z-index: 10000;
+    }
+
+    .notification {
+        background:rgba(126,175,54, 0.7);
+        color:#fff;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        padding:15px;
+    }
+
+    .panel-header {
+        width: 100%;
+        padding: 16px 10px 16px;
+        border-bottom: 1px solid #f5f5f5;
+        font-size: 20px;
+    }
+
+    .panel-body {
+        padding: 16px 10px 16px;
+    }
+
+    .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter {
+        float: none;
+        text-align: left;
+    }
+    .dataTables_wrapper .dataTables_length select {
+        border: 1px solid #aaa;
+        border-radius: 3px;
+        padding: 5px;
+        background-color: transparent;
+        padding: 4px;
+        height: 2rem;
+        width: 38%;
+        margin-left: 10px;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+        border: 1px solid #aaa;
+        border-radius: 3px;
+        padding: 5px;
+        background-color: transparent;
+        margin-left: 3px;
+        width: 84% !important;
+        box-sizing: border-box;
+        height: 2rem;
+    }
+
+    table.dataTable tbody th, table.dataTable tbody td {
+        padding: 4px 3px;
+    }
+
+    .dataTables_filter label {
+        color: #000;
+    }
+
+    .dataTables_length .label {
+        color: #000;
+    }
+
+    label {
+        font-size: .8rem;
+        color: #000;
+    }
+
+    .back-button {
+        padding:1px 7px !important;
+        border: 1px solid #EDEDED;
+        color:#000;
+        background:#fff;
+        display:inline-block;
+        border-radius: 20px;
+    }
+
+    .no-pad-right-large {
+        padding-right: initial !important;
+    }
+
+    
+
+    .green-top-area .user-avatar-circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #7EAF36;
+        color: #fff;
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+
+    .green-top-area .user-circle {
+        width: 23%;
+        float: left;
+        margin-top: -5px;
+    }
+
+    .chat-page-header .user-circle {
+        width: 19.5%;
+        padding-left: 10px;
+    }
+
+    .chat-page-header .user-name {
+        width: 90%;
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        padding-top: 5px;
+    }
+
+    .chat-page-header {
+        background: #F5F5F5;
+        height: 55px;
+        padding-top: 8px;
+    }
+
+    #chat-page-right .send-box textarea {
+        width: 65%;
+        height: 40px;
+        max-height: 92px;
+        font-size: 15px;
+        border: 1px solid #fff;
+        padding-left: 10px;
+        background: #fff;
+        overflow: hidden;
+        line-height: 20px;
+        font-size: 15px;
+        padding-top: 6px;
+        border-radius: 10px;
+        color: #666666;
+        float: left;
+        outline: none;
+        resize: none;
+        margin-left: 10px;
+        padding-right: 45px;
+    }
+    
+    #chat-page-right .send-button {
+        background: #7EAF36;
+        height: 35px;
+        width: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
+        color: #fff;
+        float: left;
+        font-size: 19px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        right: 33%;
+        top: 3px;
+    }
+
+    #chat-page-right .send-box .extra-button-2 {
+        background: teal;
+        height: 35px;
+        width: 35px;
+        color: #fff;
+        float: left;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 8px;
+        margin-top: 3px;
+    }
+
+    #chat-page-right .send-box .fixed-action-btn ul {
+        right: 18%;
+    }
+
+    #chat-page-right  .chat-box {
+        height: 370px;
+        padding: 10px 15px;
+        overflow-y: scroll;
+        width: 100%;
+    }
+
+
+    .spread-on-small {
+        width:100% !important;
+    }
+
+    .play-button {
+        position:absolute;
+        left:36%;
+        top:33%;
+        font-size:30px;
+        color: #fff;
+        border:2px solid #fff;
+        border-radius: 50%;
+        height:50px;
+        width:50px;
+        text-align:center;
+        line-height:40px;
+        box-shadow: 1px 1px 10px #333;
+        background:#81a92a;
+    }
+
+    .class-send-box textarea {
+        width: 71%;
+        height: 40px;
+        max-height: 92px;
+        font-size: 15px;
+        border: 1px solid #fff;
+        padding-left: 10px;
+        background: #fff;
+        overflow: hidden;
+        line-height: 20px;
+        font-size: 15px;
+        padding-top: 10px;
+        border-radius: 12px;
+        color: #666666;
+        float: left;
+        outline: none;
+        resize: none;
+        margin-left: 0px;
+        padding-right: 35px;
+        margin-top: 6px;
+    }
+
+    .class-send-box .extra-button-2 {
+        margin-top: 10px;
+    }
+
+    .mobile-table-overflow {
+        overflow-x: auto !important;
+    }
+}
+
+/*mobile phones*/
+@media screen and (min-width: 1px) and (max-width: 320px)  {
+
+    .side-nav-title {
+        padding-left: 20px;
+        color: #999;
+        display:none;
+    }
+	.sticky .button-collapse {
+		font-size: 24px;
+		color: #000000;
+		padding-right: 14px;
+		padding-top: 19px;
+	}
+
+	.sticky nav, .sticky  nav .nav-wrapper i, .sticky  nav a.button-collapse, .sticky  nav a.button-collapse i {
+		height: 40px;
+		line-height: 40px;
+		/* margin-top: 20px; */
+	}
+	.sticky .sticky-logo {
+		display: block;
+		height: 54px;
+	}
+
+	.white_content 
+	{
+        display: none;
+        position: fixed;
+        top: 5%;
+        left: 7%;
+        width: 87%;
+        height: 86%;
+        padding: 16px 10px;
+        background-color: white;
+        z-index: 1001;
+        -webkit-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: white_content;
+        animation-name: white_content;
+	}
+
+	.white_content2 
+	{
+		display: none;
+        position: fixed;
+        top: 5%;
+        left: 7%;
+        width: 87%;
+        height: 86%;
+        padding: 16px 10px;
+        background-color: white;
+        z-index: 1001;
+		-webkit-animation-duration: 0.5s;
+		animation-duration: 0.5s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-name: white_content2;
+		animation-name: white_content2;
+    }
+    
+    .classroom_circle2 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #fff;
+        padding: 2px;
+        box-shadow: 1px 1px 5px #ccc;
+        vertical-align: middle;
+        margin-right: 10px;
+        float: left;
+        margin-top: -3px;
+    }
+
+    .platform-page-title {
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .classroom-lesson-box {
+        height: 421px;
+        padding: 0px 0px;
+        overflow-y: auto;
+        width: 100%;
+    }
+
+    .hide-on-small {
+        display: none;
+    }
+
+    .classroom-left {
+        margin-left:0 !important;
+        margin-right:0 !important;
+        padding-left:0 !important;
+        padding-right: 0!important;
+    }
+
+    .classroom-blackboard {
+        padding: 10px;
+        border: 1px solid #EDEDED;
+        font-size: 1.1rem;
+        background: #E7EBEB;
+        border-radius: 0px;
+        color: #000;
+        height: 385px;
+        position: relative;
+        box-shadow: 0px 0px 0px #999999;
+        padding-top: 0;
+    }
+
+    .right-more-button {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .green-top-area {
+        background:#81a92a;
+        padding:10px;
+        padding-bottom: 0px;
+    }
+    .tabs {
+        position: relative;
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 44px;
+        width: 100%;
+        background-color: transparent;
+        margin: 0 auto;
+        white-space: nowrap;
+    }
+    .tabs .indicator {
+        position: absolute;
+        bottom: 0;
+        height: 2px;
+        background-color: #fff;
+        will-change: left, right;
+    }
+    .green-top-area .tabs .tab a {
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0 10px;
+        font-size: 14px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-transition: color .28s ease;
+        transition: color .28s ease;
+        font-weight: 500;
+    }
+    .short-classroom-text {
+        text-overflow: ellipsis;
+        width: 190px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        color:#fff;
+        font-weight: 500;
+    }
+
+    .dropdown-content {
+        background-color: #fff;
+        margin: 0;
+        display: none;
+        min-width: 140px;
+        max-height: 650px;
+        overflow-y: auto;
+        opacity: 0;
+        position: absolute;
+        z-index: 999;
+        will-change: width, height;
+    }
+    .dropdown-content li {
+        clear: both;
+        color: rgba(0,0,0,0.87);
+        cursor: pointer;
+        min-height: 40px;
+        line-height: 1.5rem;
+        width: 100%;
+        text-align: left;
+        text-transform: none;
+    }
+    .dropdown-content li>a, .dropdown-content li>span {
+        font-size: 16px;
+        color: #26a69a;
+        display: block;
+        line-height: 24px;
+        padding: 5px 8px;
+    }
+    
+	.spaced-out-container {
+        width:94% !important;
+    }
+    .show-on-small {
+        display:block;
+    }
+
+    .classroom-lesson-box {
+        height: 310px;
+        padding: 0px 0px;
+        overflow-y: auto;
+        width: 100%;
+    }
+
+    .replyer-holder .message-holder {
+        max-width: 80%;
+        background: #fff;
+        color: #000;
+        float: left;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+
+    .send-box .fixed-action-btn ul {
+        right: 17%;
+    }
+
+    .send-box textarea {
+        width: 85%;
+        height: 40px;
+        max-height: 92px;
+        font-size: 15px;
+        border: 1px solid #fff;
+        padding-left: 10px;
+        background: #fff;
+        overflow: hidden;
+        line-height: 20px;
+        font-size: 15px;
+        padding-top: 6px;
+        border-radius: 10px;
+        color: #666666;
+        float: left;
+        outline: none;
+        resize: none;
+        margin-left: 10px;
+    }
+
+    .classroom-blackboard .send-box textarea {
+        width: 65%;
+        padding-right: 39px;
+    }
+
+    .send-button {
+        background: #7EAF36;
+        height: 35px;
+        width: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
+        color: #fff;
+        float: left;
+        font-size: 19px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        right: 33%;
+    }
+
+    .classroom-blackboard .extra-button-2 {
+        background: teal;
+        height: 35px;
+        width: 35px;
+        color: #fff;
+        float: left;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+
+    .tasks-inner {
+        height: 310px;
+        overflow-y: auto;
+    }
+
+    .classroom-name-title {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    #sic2 {
+        overflow-y: auto;
+        height: 100%;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+
+    .btn, .btn-large, .btn-flat {
+        border: none;
+        border-radius: 2px;
+        display: inline-block;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 0.8rem;
+        text-transform: uppercase;
+        vertical-align: middle;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    audio, canvas, progress, video {
+        display: inline-block;
+        vertical-align: baseline;
+        width: 187px;
+    }
+
+    .video_snapshot {
+        width: 200px !important;
+    }
+
+    .classroom-form-padding {
+        padding: 0px 11px;
+    }
+
+    .showpic {
+        height: 187px;
+        overflow: hidden;
+        width: 206px;
+        position: relative;
+        background: #f1f1fe;
+        line-height: 150px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .notification-icon {
+		padding-top: 10px;
+		margin-right: 5px;
+		position: relative;
+    }
+    
+    .notification-message-box {
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #999;
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 8%;
+        width: 300px;
+        height:250px;
+        padding: 15px;
+        z-index: 10000;
+    }
+
+    .notification {
+        background:rgba(126,175,54, 0.7);
+        color:#fff;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        padding:15px;
+    }
+
+    .panel-header {
+        width: 100%;
+        padding: 16px 10px 16px;
+        border-bottom: 1px solid #f5f5f5;
+        font-size: 20px;
+    }
+
+    .panel-body {
+        padding: 16px 10px 16px;
+    }
+
+    .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter {
+        float: none;
+        text-align: left;
+    }
+    .dataTables_wrapper .dataTables_length select {
+        border: 1px solid #aaa;
+        border-radius: 3px;
+        padding: 5px;
+        background-color: transparent;
+        padding: 4px;
+        height: 2rem;
+        width: 73%;
+    }
+
+    .back-button {
+        padding:1px 7px !important;
+        border: 1px solid #EDEDED;
+        color:#000;
+        background:#fff;
+        display:inline-block;
+        border-radius: 20px;
+    }
+
+    .no-pad-right-large {
+        padding-right: initial !important;
+    }
+
+    
+
+    .green-top-area .user-avatar-circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #7EAF36;
+        color: #fff;
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+
+    .green-top-area .user-circle {
+        width: 23%;
+        float: left;
+        margin-top: -5px;
+    }
+
+    .chat-page-header .user-circle {
+        width: 19.5%;
+        padding-left: 10px;
+    }
+
+    .chat-page-header .user-name {
+        width: 90%;
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        padding-top: 5px;
+    }
+
+    .chat-page-header {
+        background: #F5F5F5;
+        height: 55px;
+        padding-top: 8px;
+    }
+
+    #chat-page-right .send-box textarea {
+        width: 65%;
+        height: 40px;
+        max-height: 92px;
+        font-size: 15px;
+        border: 1px solid #fff;
+        padding-left: 10px;
+        background: #fff;
+        overflow: hidden;
+        line-height: 20px;
+        font-size: 15px;
+        padding-top: 6px;
+        border-radius: 10px;
+        color: #666666;
+        float: left;
+        outline: none;
+        resize: none;
+        margin-left: 10px;
+        padding-right: 45px;
+    }
+    
+    #chat-page-right .send-button {
+        background: #7EAF36;
+        height: 35px;
+        width: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
+        color: #fff;
+        float: left;
+        font-size: 19px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        right: 33%;
+        top: 3px;
+    }
+
+    #chat-page-right .send-box .extra-button-2 {
+        background: teal;
+        height: 35px;
+        width: 35px;
+        color: #fff;
+        float: left;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 8px;
+        margin-top: 3px;
+    }
+
+    #chat-page-right .send-box .fixed-action-btn ul {
+        right: 18%;
+    }
+
+    #chat-page-right  .chat-box {
+        height: 370px;
+        padding: 10px 15px;
+        overflow-y: scroll;
+        width: 100%;
+    }
+
+
+    .spread-on-small {
+        width:100% !important;
+    }
+
+    .play-button {
+        position:absolute;
+        left:36%;
+        top:33%;
+        font-size:30px;
+        color: #fff;
+        border:2px solid #fff;
+        border-radius: 50%;
+        height:50px;
+        width:50px;
+        text-align:center;
+        line-height:40px;
+        box-shadow: 1px 1px 10px #333;
+        background:#81a92a;
+    }
+
+    .class-send-box textarea {
+        width: 71%;
+        height: 40px;
+        max-height: 92px;
+        font-size: 15px;
+        border: 1px solid #fff;
+        padding-left: 10px;
+        background: #fff;
+        overflow: hidden;
+        line-height: 20px;
+        font-size: 15px;
+        padding-top: 10px;
+        border-radius: 12px;
+        color: #666666;
+        float: left;
+        outline: none;
+        resize: none;
+        margin-left: 0px;
+        padding-right: 35px;
+        margin-top: 6px;
+    }
+
+    .class-send-box .extra-button-2 {
+        margin-top: 10px;
+    }
+
+    .mobile-table-overflow {
+        overflow-x: auto !important;
+    }
+}
