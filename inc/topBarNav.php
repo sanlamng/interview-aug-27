@@ -9,7 +9,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link text-light" aria-current="page" href="./">Home</a></li>
-                        <li class="nav-item"><a class="nav-link  text-light" href="./?p=announcements">Announcements</a></li>
+                        <li class="nav-item"><a class="nav-link  text-light" href="./?p=announcements">Disclaimer</a></li>
                         <li class="nav-item"><a class="nav-link  text-light" href="./?p=about">About</a></li>
                     </ul>
                     <div class="d-flex align-items-center">
